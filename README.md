@@ -1,28 +1,51 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+🚀 Cypress — Do Zero à Nuvem
 
-👋 Seja bem-vindo(a)!
+Projeto criado para estudos e prática de automação de testes com Cypress, seguindo o curso Do Zero à Nuvem.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+📌 Pré-requisitos
 
-## O que você vai aprender?
+Antes de começar, verifique se você possui as ferramentas abaixo instaladas em sua máquina:
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Git: 2.50.1
 
-## Vamos começar?
+Node.js: v22.13.0
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+npm: 10.9.2
 
-___
+⚙️ Instalação
 
-Este é um curso da **Escola Talking About Testing**.
+No terminal, dentro da pasta do projeto, execute:
+
+npm install
+
+
+ou, se preferir a versão curta:
+
+npm i
+
+
+Isso instalará todas as dependências necessárias para o ambiente de desenvolvimento.
+
+
+
+▶️ Modos de execução
+
+Headless (sem abrir interface):
+
+npm test
+
+
+ou:
+
+npm t
+
+
+Interativo (abrindo o Cypress):
+
+npm run cy:open
+
+⭐ Apoie este projeto
+
+Se este projeto foi útil para você, deixe uma ⭐ no repositório.
+
+Criado com 💚 por Deivson Sena
